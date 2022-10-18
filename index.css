@@ -1,0 +1,35 @@
+.xxlarge-btn 
+{
+    background-color:#a88e7a;
+    border-radius: 40px;
+    padding: 4px;
+    color:#a2816e;
+    width: 50vw;
+    transition: all 500ms;
+}
+
+.eiei2
+{
+    margin-top:0.5vh;
+}
+
+.xxlarge-btn:hover
+{
+    background: #e8d9c2;
+    color: #a88e7a;
+    transform: scale(80%);
+}
+
+.xxlarge-btn:hover button h2 a
+{
+    color: #a88e7a;
+}
+
+
+@media (min-width:1024px)
+{
+    .xxlarge-btn
+    {
+        width:40vw;
+    }
+}
